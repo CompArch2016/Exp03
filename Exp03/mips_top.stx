@@ -1,0 +1,83 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/3140105565/Exp03/Exp03/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to D:/3140105565/Exp03/Exp03/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "code/regfile.v" in library work
+Compiling verilog include file "code/define.vh"
+Compiling verilog file "code/alu.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <regfile> compiled
+Compiling verilog include file "code/mips_define.vh"
+Compiling verilog file "code/datapath.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <alu> compiled
+Compiling verilog include file "code/mips_define.vh"
+Compiling verilog file "code/controller.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <datapath> compiled
+Compiling verilog include file "code/mips_define.vh"
+ERROR:HDLCompilers:26 - "code/controller.v" line 224 unexpected token: '?'
+ERROR:HDLCompilers:26 - "code/controller.v" line 224 unexpected token: '?'
+ERROR:HDLCompilers:26 - "code/controller.v" line 224 expecting ':', found ')'
+ERROR:HDLCompilers:26 - "code/controller.v" line 228 unexpected token: '?'
+ERROR:HDLCompilers:26 - "code/controller.v" line 228 unexpected token: '?'
+ERROR:HDLCompilers:26 - "code/controller.v" line 228 unexpected token: ')'
+ERROR:HDLCompilers:26 - "code/controller.v" line 229 expecting ':', found ';'
+ERROR:HDLCompilers:26 - "code/controller.v" line 236 unexpected token: '?'
+ERROR:HDLCompilers:26 - "code/controller.v" line 236 unexpected token: ')'
+ERROR:HDLCompilers:26 - "code/controller.v" line 237 expecting ')', found ';'
+ERROR:HDLCompilers:26 - "code/controller.v" line 241 expecting 'end', found 'reg'
+ERROR:HDLCompilers:26 - "code/controller.v" line 241 unexpected token: ';'
+ERROR:HDLCompilers:28 - "code/controller.v" line 244 'debug_step_prev' has not been declared
+ERROR:HDLCompilers:28 - "code/controller.v" line 268 'debug_step_prev' has not been declared
+Compiling verilog file "code/mips_core.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <controller> compiled
+Compiling verilog file "code/inst_rom.v" in library work
+Module <mips_core> compiled
+Compiling verilog file "code/displcd.v" in library work
+Module <inst_rom> compiled
+Module <displcd> compiled
+Module <genlcd> compiled
+Compiling verilog file "code/data_ram.v" in library work
+Module <lcd> compiled
+Compiling verilog file "code/mips.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <data_ram> compiled
+Compiling verilog file "code/display.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <mips> compiled
+Compiling verilog file "code/clk_gen.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <display> compiled
+Compiling verilog file "code/anti_jitter.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <clk_gen> compiled
+Compiling verilog file "code/mips_top.v" in library work
+Compiling verilog include file "code/define.vh"
+Module <anti_jitter> compiled
+Module <mips_top> compiled
+Analysis of file <"mips_top.prj"> failed.
+--> 
+
+Total memory usage is 206848 kilobytes
+
+Number of errors   :   14 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

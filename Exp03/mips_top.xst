@@ -1,0 +1,5 @@
+set -tmpdir "D:/3140105565/Exp03/Exp03/xst/projnav.tmp"
+set -xsthdpdir "D:/3140105565/Exp03/Exp03/xst"
+elaborate
+-ifn mips_top.prj
+-ifmt mixed

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/3140105565/Exp03/Exp03/mips_top.xst" -ofn "D:/3140105565/Exp03/Exp03/mips_top.syr" 

@@ -1,0 +1,3 @@
+MO regfile NULL code/regfile.v vlg72/regfile.bin 1477386573
+MO datapath NULL code/datapath.v vlg27/datapath.bin 1477386573
+MO alu NULL code/alu.v vlg0A/alu.bin 1477386573
